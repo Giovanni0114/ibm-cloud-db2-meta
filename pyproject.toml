@@ -1,0 +1,14 @@
+[project]
+name = "ibm-cloud-db2-meta"
+version = "0.1.0"
+description = "stores stuff in db2. it's a key/value thing. i just was learning imb cloud stuff"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ibm-db",
+]
+
+[dependency-groups]
+dev = [
+    "pytest"
+]
